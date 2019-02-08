@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-import '../style.css';
 import App from "../components/app";
+import Layout from "../components/layout";
 class index extends Component{
     render(){
         return(
-            <App/>
+            <Layout>
+                <App/>
+            </Layout>
         )
     }
 }
